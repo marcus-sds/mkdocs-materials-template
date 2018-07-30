@@ -1,0 +1,11 @@
+jinja2==2.9.6
+six==1.11.0
+MarkupSafe==1.0
+certifi==2017.7.27
+livereload==2.5.1
+click==6.7
+mkdocs>=0.17.1
+Pygments>=2.2
+pymdown-extensions>=3.4
+tornado==4.5.3
+mkdocs-material
