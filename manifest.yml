@@ -1,0 +1,7 @@
+---
+applications:
+- name: example-docs
+  memory: 128M
+  disk_quota: 256M
+  instances: 1
+  buildpack: python_buildpack
