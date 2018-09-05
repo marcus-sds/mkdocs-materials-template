@@ -16,10 +16,10 @@
 
 - copy materials directory to your repo
 
-    git clone https://github.com/marcus-sds/mkdocs-materials-template mkdocs
-    cd mkdocs
-    mkdir docs
-    touch README.md
+        git clone https://github.com/marcus-sds/mkdocs-materials-template mkdocs
+        cd mkdocs
+        mkdir docs
+        touch README.md
 
 - reference mkdocs.yml file (theme, extensions, menu and other options)
 
@@ -31,12 +31,12 @@
 
 - login to cf
 
-    cd mkdocs
-    cf login
+        cd mkdocs
+        cf login
 
 - push
 
-    cf push
+        cf push
 
 
 ## Reference Site
