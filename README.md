@@ -1,4 +1,4 @@
-# MKDOCS Customized
+# MKDOCS Customized Materials
 
 ---
 ## Changed
@@ -16,9 +16,24 @@
 
 - copy materials directory to your repo
 
-- copy requirements.txt to your repo
+    git clone https://github.com/marcus-sds/mkdocs-materials-template mkdocs
+    cd mkdocs
+    mkdir docs
+    touch README.md
 
-- reference mkdocs.yml file (theme, extensions)
+- reference mkdocs.yml file (theme, extensions, menu and other options)
 
-- you can set disqus also
+- you can link disqus also
 
+    [https://disqus.com/](https://disqus.com/)
+    
+## How to push to cloudfoundry
+
+- login to cf
+
+    cd mkdocs
+    cf login
+
+- push
+
+    cf push
